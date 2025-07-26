@@ -26,7 +26,16 @@ A simple yet functional **cashier application** built with **Python Tkinter**, d
 
 ---
 
-r name, plate number, motorcycle type  
+## 🧠 System Overview
+
+### 🔹 Login Window
+- Size: 266 × 367 pixels  
+- Validates hardcoded user credentials  
+- On success → navigates to Main Menu  
+- On failure → shows error popup
+
+### 🔹 Main Menu (720 × 480 px)
+- Inputs: Customer name, plate number, motorcycle type  
 - Buttons:  
   - **Home** → Returns to home screen  
   - **Bayar** → Opens payment interface  
